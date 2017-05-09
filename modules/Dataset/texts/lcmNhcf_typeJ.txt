@@ -1,0 +1,4 @@
+Find the lowest common multiple of 24, 36 and 40.
+Find the LCM of 24, 36 ,40, 48
+Find the lowest common multiple of 24,36,40 and 56
+Find the L.C.M of 24, 36 and 40

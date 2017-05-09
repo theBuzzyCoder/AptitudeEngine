@@ -1,0 +1,4 @@
+The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:
+The greatest number which on dividing 1657, 2037 and 3437 leaves remainders 6, 5 and 8 respectively is:
+The greatest number which on dividing 1657, 2037, 3437 leaves remainders 6, 5, 8 respectively is:
+The number which on dividing 1657, 2037, 3437 leaves remainders 6,5,8 respectiviely. Find the greatest number ?

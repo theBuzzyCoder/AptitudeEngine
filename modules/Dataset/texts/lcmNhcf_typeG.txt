@@ -1,0 +1,5 @@
+The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:
+Find the largest of 2 numbers whose HCF is 23 and the other factors of their LCM are 13 and 14.
+Find the largest of two numbers whose HCF is 23 and the other factors of their LCM are 13 and 14.
+Find the largest of 2 numbers whose hcf is 23 and the other factors of their lcm are 13 and 14.
+The LCM of two factors of 2 number are 13 and 14 whose HCF is 23. Find the largest of of 2 numbers 

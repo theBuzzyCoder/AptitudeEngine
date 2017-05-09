@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e53535" />
+  <link rel ="icon" href="{{ url_for('static',filename ="images/tab_icon.png") }}" type="image/x-icon"/>
+  <title>Aptitude Engine</title>
+  <script type ="text/javascript" src="{{ url_for('static',filename ="JS/MaterialUi.js") }}"></script>
+  <style>
+  @font-face{
+    font-family: roboto;
+    src:url({{ url_for('static',filename="fonts/Roboto/Roboto-Light.ttf")}})
+  }
+  @font-face{
+    font-family: roboto-medium;
+    src:url({{ url_for('static',filename="fonts/Roboto/Roboto-Light.ttf")}})
+  }
+  </style>
+  <link href="{{ url_for('static',filename ="CSS/material.css") }}" rel="stylesheet"/>
+</head>
+<body>
+  <div id="header">
+    <img id ="apti-logo" src ="{{ url_for('static',filename ="images/logo.png") }}" width="50" height="50" onclick="loadHome()">
+    <div id="about-us" class="header-button">
+      <button onclick ="howPage();">How</button>
+    </div>
+    <div id="faq-button" class="header-button">
+      <button onclick = "faqPage();">FAQ</button>
+    </div>
+    <div id="cat-button" class="header-button">
+      <button onclick ="catPage();">category</button>
+    </div>
+  </div>
+  <div id ="s-header" style="text-align : center;">
+    <img src="{{ url_for('static',filename ="images/logo-home.png") }}" id = "logo"/>
+    <div class="center" id="ques-wrap" >
+    <input type="text" placeholder="Aptitude Question" id="ques" onkeypress="handleKeyPress(event)"/>
+    <button type="button" id="solve" class="theme" title="Solve" onclick="load_question()">
+    Solve
+    </button>
+</div>
+</div>
+<div id="container">
+<div class="card" id ="sol">
+  <span id="question">Question </span>
+  <span id="q-type">Question type > Number Series </span>
+  <div class="card theme" id="result">
+
+</div>
+<div id="sol-container">
+
+</div>
+</div>
+<div class="card" id ="rel">
+  <span id ="rel-text"> Related Questions </span>
+  <div class ="rel-ques">
+  <a href="#">
+    Some related question goes here
+  </a>
+  </div>
+</div>
+</div>
+<div id ="category">
+  <div class ="card cat">
+    <img src ="{{ url_for('static',filename = 'images/logo.png')}}" />
+    <div class ="cat-title">
+      Number Series
+    </div>
+  </div>
+</div>
+<div id ="faq">
+  <div id ="faq-card" class="card">
+    <div class ="faq-ques">
+      What is Aptitude Engine?
+    </div>
+    <div class ="faq-ans">
+      Aptitude engine is a smart apptitude question solver engine which can be used to solve "Number Series", "Speed Distance and Time" , "Clocks" apptitude problems. It provides the result along with easy steps to solve the problem.
+    </div>
+    <div class ="faq-ques">
+      How to input questions?
+    </div>
+    <div class ="faq-ans">
+      Apptitude Engine can process english language! That means you can input questions in english language.But be carefull with your grammer.
+    </div>
+    <div class ="faq-ques">
+    How to input a series for missing number problems?
+    </div>
+    <div class ="faq-ans">
+      You need to follow standard format to find a missing number in a series. The format is - num1,num2,-,num3,num4,... where '-' is the missing number to find
+    </div>
+  </div>
+</div>
+<div id="view-questions">
+  <div class="card v-question">
+    Question goes here
+  </div>
+</div>
+<div id ="how">
+</div>
+<div id="error">
+  <p id ="error-message"></p>
+  <img src ="{{ url_for('static',filename ="images/cannot_solve.png") }}" id = "error-image"/>
+</div>
+<div id="intro">
+  <div class="message">
+    <img src="{{ url_for('static',filename ="images/message-1.png") }}" width="100" height="100"/>
+    <span>All things are difficult before they are easy</span>
+  </div>
+  <div class="message">
+    <img src="{{ url_for('static',filename ="images/message-2.png") }}" width="100" height="100"/>
+    <span>You may have to fight a battle more than once to win it.</span>
+  </div><div class="message">
+    <img src="{{ url_for('static',filename ="images/message-3.png") }}" width="100" height="100"/>
+    <span>Do what is right not what is easy</span>
+  </div>
+</div>
+<div id="loader-container">
+  <div class="loader">
+  </div>
+  <div class ="text">
+    Computing...
+  </div>
+</div>
+<div id = "feedback-container">
+  <div id = "feedback-text">
+    Feedback
+  </div>
+  <div id="feedback-info">
+    <input type="text" id="name" placeholder="Name"/>
+    <input type="email" id="email" placeholder="Email"/>
+  </div>
+  <div id = "feedback-type">
+    <span id="first">General</span><input type = "radio" name = "type" id ="rd1" checked value="1"/>
+    <span id="second">New Feature</span><input type = "radio" name = "type" id ="rd2" value="2"/>
+  </div>
+  <div id = "feedback-content">
+    <textarea id = "feedback" placeholder="Feedback ..." cols="100" rows="1"></textarea>
+    <button class="theme" id="feedback-button" onclick="feedbackSubmit()">Submit</button>
+  </div>
+</div>
+</body>
+</html>

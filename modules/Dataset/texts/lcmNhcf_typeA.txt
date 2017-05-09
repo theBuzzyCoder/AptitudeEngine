@@ -1,0 +1,5 @@
+The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:
+The greatest number of 4 digits which is divisible by 15, 25, 40 and 75 is:
+The greatest number of five digits which is divisible by 25,26,30,36 is:
+The greatest number of three digits which is divisible by 30, 20, 40, 60 is:
+The greatest number of 3 digits which is divisible by 30, 20, 40 and 60 is:

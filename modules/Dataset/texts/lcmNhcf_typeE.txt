@@ -1,0 +1,7 @@
+Three number are in the ratio of 3 : 4 : 5 and their L.C.M. is 2400. Their H.C.F. is:
+Three number are in the ratio of 3:4:5 and their L.C.M. is 2400. Their H.C.F is:
+3 number are in the ratio of 3:4:5 and their L.C.M. is 2400. Their H.C.F is:
+The L.C.M of 3 numbers is 2400 and they are in the ratios  3:4:5. Their H.C.F is
+The L.C.M of three numbers is 2400 and they are in the ratios  3:4:5. Their H.C.F is
+The L.C.M of three  numbers is 2400 and they are in the ratios  3 : 4 : 5. Their H.C.F is 
+Find the HCF of 3 numbers whose LCM is 2400 and they are in the ratio 3:4:5 ?
