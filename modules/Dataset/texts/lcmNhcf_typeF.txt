@@ -1,0 +1,3 @@
+The least number, which when divided by 12, 15, 20 and 54 leaves in each case a remainder of 8 is:
+The least number which when divided by 12, 15, 20 and 54 leaves in each case a remainder of 8 is:
+The least number which when divided by 12,15,20,54 leaves in each case a remainder of 8

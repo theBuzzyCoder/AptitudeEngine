@@ -1,0 +1,4 @@
+The G.C.D. of 1.08, 0.36 and 0.9 is:
+Find the GCD of 1.08,0.36,0.9
+The G.C.D. of 1.08, 0.36, 0.9 is:
+The gcd of 1.08, 0.36 and 0.9 is:
