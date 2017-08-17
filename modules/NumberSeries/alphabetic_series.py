@@ -1,4 +1,7 @@
-import solve_series as s
+# -*- coding: utf-8 -*-
+from modules.NumberSeries import solve_series as s
+
+
 def checkAlpha(series,type,index):
     new_series = []
     #loop through series

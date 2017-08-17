@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from functools import reduce
-import prime as p
+import modules.LCM.prime as p
 multiplier = 1
 max_dec = 0
 #-----------------------------------------------------------------------------------------------------------------------------------------------

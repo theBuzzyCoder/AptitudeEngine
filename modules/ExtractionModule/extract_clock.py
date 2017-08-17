@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-import nltk
-import extraction_abc
 import sys
 import re
 import os
-from nltk.tokenize import sent_tokenize,word_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
+import modules.ExtractionModule.extraction_abc as extraction_abc
+import modules.Clock.clock as clock
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '../Clock'))
-import clock
+
 class ClockExtractParameters(extraction_abc.ExtractParameters):
     """ A Extract parameter class which can extract parameters from clock problems"""
 

@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-import diff_AP as dif
-import diff_GP as dig
-import alphabetic_series as als
-common_diff = 0;
+import modules.NumberSeries.diff_AP as dif
+import modules.NumberSeries.diff_GP as dig
+import modules.NumberSeries.alphabetic_series as als
+
+common_diff = 0
+
+
 def ap(series,index):
 	i=0;
 	global common_diff
