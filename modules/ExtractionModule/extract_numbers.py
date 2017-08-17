@@ -1,10 +1,9 @@
-#!/usr/bin/python3
-import extraction_abc
-import sys
+# -*- coding: utf-8 -*-
 import re
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../NumberSeries'))
-import solve_series as s
+import modules.ExtractionModule.extraction_abc as extraction_abc
+import modules.NumberSeries.solve_series as s
+
+
 class NumbersExtractParameters(extraction_abc.ExtractParameters):
     """ A Extract parameter class which can extract parameters from number series problems"""
 

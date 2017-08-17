@@ -1,5 +1,5 @@
 import nltk
-import TimeWork as TW
+import modules.TimeWork.TimeWork as TW
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
 from nltk.tokenize import sent_tokenize, word_tokenize

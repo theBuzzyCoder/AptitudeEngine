@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 import nltk
-import extraction_abc
 import sys
 import re
 import os
 from nltk.tokenize import sent_tokenize,word_tokenize
-sys.path.append(os.path.join(os.path.dirname(__file__), '../LCM'))
-import lcm_n_hcf as l
+import modules.ExtractionModule.extraction_abc as extraction_abc
+import modules.LCM.lcm_n_hcf as l
 class LCMExtractParameters(extraction_abc.ExtractParameters):
     """ A Extract parameter class which can extract parameters from LCM and HCF problems"""
 

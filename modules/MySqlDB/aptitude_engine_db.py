@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import mysql
+import modules.MySqlDB.mysql as mysql
 interface = False
 import json
 

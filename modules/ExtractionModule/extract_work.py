@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-import nltk
-import extraction_abc
 import sys
 import re
 import os
-from nltk.tokenize import sent_tokenize,word_tokenize
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '../TimeWork'))
-import ParseTimeWork
+import modules.ExtractionModule.extraction_abc as extraction_abc
+
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize
+
+import modules.TimeWork.ParseTimeWork
+
+
 class TimeWorkExtractParameters(extraction_abc.ExtractParameters):
     """ A Extract parameter class which can extract parameters from time problems"""
     def extract_and_solve(self, question):
